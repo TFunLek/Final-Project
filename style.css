@@ -1,0 +1,143 @@
+.frame {
+  background-color: #ffffff;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.frame .overlap-group-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1440px;
+  height: 1069px;
+}
+
+.frame .overlap-group {
+  position: relative;
+  height: 1788px;
+  background-color: #ffffff;
+}
+
+.frame .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 125px;
+  top: 0;
+  left: 0;
+  background-color: #49a5dd;
+}
+
+.frame .image {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 17px;
+  left: 20px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .div {
+  position: absolute;
+  width: 1440px;
+  height: 944px;
+  top: 125px;
+  left: 0;
+}
+
+.frame .overlap-2 {
+  position: absolute;
+  width: 1440px;
+  height: 944px;
+  top: 0;
+  left: 0;
+}
+
+.frame .overlap-3 {
+  position: absolute;
+  width: 1440px;
+  height: 438px;
+  top: 506px;
+  left: 0;
+}
+
+.frame .rectangle {
+  width: 1440px;
+  height: 125px;
+  top: 313px;
+  background-color: #49a5dd;
+  position: absolute;
+  left: 0;
+}
+
+.frame .text-wrapper {
+  position: absolute;
+  width: 1076px;
+  top: 0;
+  left: 111px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .photoshop-premiere {
+  position: absolute;
+  width: 984px;
+  top: 88px;
+  left: 111px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .rectangle-2 {
+  width: 40px;
+  height: 819px;
+  top: 0;
+  background-color: #d9d9d9;
+  position: absolute;
+  left: 0;
+}
+
+.frame .IMG {
+  position: absolute;
+  width: 273px;
+  height: 409px;
+  top: 34px;
+  left: 111px;
+  aspect-ratio: 0.67;
+  object-fit: cover;
+}
+
+.frame .teerapat-kumlue-m {
+  position: absolute;
+  width: 984px;
+  top: 189px;
+  left: 431px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 52px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.frame .text-wrapper-2 {
+  position: absolute;
+  width: 402px;
+  top: 33px;
+  left: 431px;
+  font-family: "Itim-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+}
