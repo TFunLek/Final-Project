@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    header, footer {
+      background-color: #459ad7;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      color: black;
+      position: relative;
+    }
+    .menu-icon {
+      width: 25px;
+      height: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+    }
+    .menu-icon div {
+      height: 4px;
+      background: black;
+      border-radius: 2px;
+    }
+    main {
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+    .contact-info {
+      font-size: 22px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+  <main>
+    <h1>Contract</h1>
+    <div class="contact-info">
+      ธีรภัทร คำลือ<br />
+      เบอร์ 0908911624<br />
+      อีเมล 34950.skn@skn.ac.th
+    </div>
+    <img src="https://maps.googleapis.com/maps/api/staticmap?center=13.7861,100.6036&zoom=15&size=600x300&markers=color:red%7C13.7861,100.6036&key=YOUR_API_KEY" alt="Location Map" />
+  </main>
+  <footer></footer>
+
+  <script>
+    function toggleMenu() {
+      alert('Menu clicked!');
+    }
+  </script>
+</body>
+</html>
 
