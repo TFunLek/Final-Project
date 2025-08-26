@@ -38,57 +38,42 @@
   object-fit: cover;
 }
 
-.frame .div {
-  position: absolute;
-  width: 1440px;
-  height: 944px;
-  top: 125px;
-  left: 0;
-}
-
-.frame .overlap-2 {
-  position: absolute;
-  width: 1440px;
-  height: 944px;
-  top: 0;
-  left: 0;
-}
-
-.frame .overlap-3 {
-  position: absolute;
-  width: 1440px;
-  height: 438px;
-  top: 506px;
-  left: 0;
-}
-
 .frame .rectangle {
+  position: absolute;
   width: 1440px;
   height: 125px;
-  top: 313px;
-  background-color: #49a5dd;
-  position: absolute;
+  top: 944px;
   left: 0;
+  background-color: #49a5dd;
+}
+
+.frame .div {
+  position: absolute;
+  width: 40px;
+  height: 819px;
+  top: 125px;
+  left: 0;
+  background-color: #d9d9d9;
 }
 
 .frame .text-wrapper {
   position: absolute;
-  width: 1076px;
-  top: 0;
-  left: 111px;
+  width: 389px;
+  top: 152px;
+  left: 66px;
   font-family: "Itim-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
-  font-size: 35px;
+  font-size: 64px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.frame .photoshop-premiere {
+.frame .text-wrapper-2 {
   position: absolute;
-  width: 984px;
-  top: 88px;
-  left: 111px;
+  width: 318px;
+  top: 699px;
+  left: 545px;
   font-family: "Itim-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
@@ -98,46 +83,64 @@
 }
 
 .frame .rectangle-2 {
+  position: absolute;
+  width: 610px;
+  height: 357px;
+  top: 297px;
+  left: 399px;
+  background-color: #d9d9d9;
+}
+/* Original CSS code should be injected here */
+
+.frame .main-content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: calc(100vh - 250px);
+}
+
+.frame .achievement-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame .overlap[role="banner"] {
+  position: absolute;
+  width: 1440px;
+  height: 125px;
+  top: 0;
+  left: 0;
+  background-color: #49a5dd;
+}
+
+.frame .div[role="complementary"] {
+  position: absolute;
   width: 40px;
   height: 819px;
-  top: 0;
-  background-color: #d9d9d9;
-  position: absolute;
+  top: 125px;
   left: 0;
+  background-color: #d9d9d9;
 }
 
-.frame .IMG {
+.frame .rectangle[role="contentinfo"] {
   position: absolute;
-  width: 273px;
-  height: 409px;
-  top: 34px;
-  left: 111px;
-  aspect-ratio: 0.67;
-  object-fit: cover;
+  width: 1440px;
+  height: 125px;
+  top: 944px;
+  left: 0;
+  background-color: #49a5dd;
 }
 
-.frame .teerapat-kumlue-m {
+.frame .rectangle-2[role="img"] {
   position: absolute;
-  width: 984px;
-  top: 189px;
-  left: 431px;
-  font-family: "Itim-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 52px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.frame .text-wrapper-2 {
-  position: absolute;
-  width: 402px;
-  top: 33px;
-  left: 431px;
-  font-family: "Itim-Regular", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
+  width: 610px;
+  height: 357px;
+  top: 297px;
+  left: 399px;
+  background-color: #d9d9d9;
 }
