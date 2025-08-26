@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <title>Achievement Page</title>
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -10,15 +11,22 @@
     <div class="frame">
       <div class="overlap-group-wrapper">
         <div class="overlap-group">
-          <div class="overlap"><img class="image" src="img/image-2.png" /></div>
-          <div class="rectangle"></div>
-          <div class="div"></div>
-          <div class="text-wrapper">Achievement</div>
-          <div class="text-wrapper-2">ยังไม่มีในขณะนี้</div>
-          <div class="rectangle-2"></div>
+          <header class="overlap">
+            <img class="image" src="img/image-2.png" alt="Profile or logo image" />
+          </header>
+          <aside class="div" role="complementary" aria-label="Sidebar navigation"></aside>
+          <main class="main-content" role="main">
+            <h1 class="text-wrapper">Achievement</h1>
+            <section class="achievement-section" aria-labelledby="achievement-heading">
+              <div class="rectangle-2" role="img" aria-label="Achievement placeholder area"></div>
+              <p class="text-wrapper-2">ยังไม่มีในขณะนี้</p>
+            </section>
+          </main>
+          <footer class="rectangle" role="contentinfo"></footer>
         </div>
       </div>
     </div>
   </body>
 </html>
+
 
