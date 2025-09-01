@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Page</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Menu</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
-    body {
-      margin: 0;
-      font-family: "Comic Sans MS", cursive, sans-serif;
-      background-color: #fff;
-    }
-
+    /* Additional styles for menu page */
     .menu-container {
-      max-width: 400px;
-      margin: auto;
-      border: 2px solid #000;
-      border-radius: 8px;
+      max-width: 500px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
       overflow: hidden;
     }
-
+    
     .menu-title {
+      background: linear-gradient(135deg, #0078d7 0%, #4dabf7 100%);
+      color: white;
       text-align: center;
-      font-size: 40px;
-      font-weight: bold;
-      padding: 20px;
-      background: white;
+      font-size: 32px;
+      font-weight: 600;
+      padding: 30px 20px;
+      margin: 0;
     }
-
+    
     .menu-item {
+      display: block;
       text-align: center;
-      padding: 25px;
-      font-size: 22px;
-      cursor: pointer;
-      background-color: #ddd;
-      transition: background 0.3s;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 500;
+      text-decoration: none;
+      color: #495057;
+      border-bottom: 1px solid #e9ecef;
+      transition: all 0.3s ease;
     }
-
-    .menu-item:nth-child(even) {
-      background-color: white;
-    }
-
+    
     .menu-item:hover {
-      background-color: #bbb;
+      background: #e9ecef;
+      color: #0078d7;
+    }
+    
+    .menu-item:last-child {
+      border-bottom: none;
     }
   </style>
 </head>
 <body>
-  <div class="menu-container">
-    <div class="menu-title">Menu</div>
-    <div class="menu-item" onclick="navigate('profile')">PROFILE</div>
-    <div class="menu-item" onclick="navigate('achievement')">Achievement</div>
-    <div class="menu-item" onclick="navigate('skills')">Experience and skills</div>
-    <div class="menu-item" onclick="navigate('contract')">Contract</div>
-  </div>
+  <div class="container">
+    <header>
+      <div class="profile-img-placeholder">
+        <span class="initials">TK</span>
+      </div>
+      <h1>Teerapat Kumlue</h1>
+      <p class="subtitle">M.6/2 No.17<br>Suankularb Wittayalai Nonthaburi School</p>
+    </header>
 
-  <script>
-    function navigate(section) {
-      alert("You clicked on " + section);
-      // Later you can link to another page, e.g.
-      // window.location.href = section + ".html";
-    }
-  </script>
+    <nav class="navigation">
+      <a href="index.html" class="nav-link">Profile</a>
+      <a href="Frame3.html" class="nav-link">Achievement</a>
+      <a href="Frame4.html" class="nav-link">Experience & Skills</a>
+      <a href="Frame5.html" class="nav-link">Contact</a>
+      <a href="Frame6.html" class="nav-link active">Menu</a>
+    </nav>
+
+    <div class="menu-container">
+      <h2 class="menu-title">Quick Navigation</h2>
+      <a href="index.html" class="menu-item">PROFILE</a>
+      <a href="Frame3.html" class="menu-item">Achievement</a>
+      <a href="Frame4.html" class="menu-item">Experience and Skills</a>
+      <a href="Frame5.html" class="menu-item">Contact</a>
+    </div>
+  </div>
 </body>
 </html>
 
