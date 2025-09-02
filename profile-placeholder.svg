@@ -1,0 +1,11 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="60" fill="#f0f0f0" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Generic person icon -->
+  <circle cx="60" cy="45" r="20" fill="#bbb"/>
+  <ellipse cx="60" cy="85" rx="25" ry="15" fill="#bbb"/>
+  
+  <!-- Placeholder text -->
+  <text x="60" y="105" text-anchor="middle" fill="#888" font-family="Arial, sans-serif" font-size="10">Your Photo</text>
+</svg>
