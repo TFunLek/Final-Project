@@ -1,0 +1,17 @@
+# Screenshot files for documentation (keep these for the PR)
+# frame3-*.png
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
